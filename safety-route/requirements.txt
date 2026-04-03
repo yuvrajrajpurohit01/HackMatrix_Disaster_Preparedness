@@ -1,1 +1,5 @@
-yupp
+streamlit
+folium
+streamlit-folium
+networkx
+matplotlib
