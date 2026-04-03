@@ -1,236 +1,183 @@
-# DisasterSense – Disaster Preparedness App
-
-> From prediction to protection — helping people stay safe before, during, and after disasters.
-
----
-
-## Overview
-
-DisasterSense is a next-generation AI-powered disaster intelligence system designed to help people respond faster and smarter during emergencies. It combines early risk prediction, real-time crowd updates, safe routing, offline emergency guidance, and voice assistance into one unified platform.
-
-The goal is to reduce panic, improve decision-making, and save lives in disaster-prone regions.
+# 🌪️ DisasterSense  
+### *Helping you stay safe — before, during, and after disasters.*
 
 ---
 
-## Problem Statement
+## 🧭 What is DisasterSense?
 
-Natural disasters such as floods, heatwaves, earthquakes, and wildfires are increasing every year. When they strike, people often receive delayed alerts, no local guidance, and no clear action plan.
+DisasterSense is a disaster preparedness app built with one simple goal:  
+**to help people make the right decisions when everything feels uncertain.**
 
-For example, imagine waking up at 2 AM to rising floodwater. You receive a generic message like “Stay safe,” but there is no map, no route, and no step-by-step guidance. This is the reality for millions of people every disaster season.
-
-Families, students, travelers, and entire communities are affected. In those critical moments, the absence of real-time local information leads to panic and unsafe decisions, turning a manageable situation into a life-threatening one.
-
----
-
-## Why It Matters
-
-Delayed information causes panic, injuries, and loss of life.  
-The first few hours of a disaster are often the most dangerous, not only because of the disaster itself, but because people do not know what is happening around them.
-
-There is a serious need for a fast, intelligent, and accessible emergency system that can guide users with clarity when it matters most.
+Instead of just sending alerts, it actually **guides you** —  
+whether it’s *before a disaster hits*, *while it’s happening*, or *after things go wrong*.
 
 ---
 
-## Existing Solutions and Gaps
+## ❗ The Problem
 
-Current solutions include government SMS alerts, weather apps, news channels, NDMA portals, and map services. Each of these tools solves only one small part of the problem.
+When disasters happen, people often:
+- Get alerts too late  
+- Don’t know what action to take  
+- Can’t find safe routes  
+- Lose internet access  
+- Panic  
 
-Their limitations are clear: they are not real-time or hyper-local, they do not use AI-based prediction, they do not include user-generated updates, they do not give step-by-step emergency guidance, and many do not work offline.
-
-The gap is not just a missing feature — it is a missing category. There is no single unified platform that combines AI prediction, crowd intelligence, smart routing, and offline support. DisasterSense bridges that gap.
-
----
-
-## Proposed Solution
-
-DisasterSense is not just an alert app. It is a full-stack AI disaster intelligence system that thinks ahead of the disaster, communicates during it, and guides people through it, even without internet.
-
-It predicts risk before the event, updates users in real time as conditions change, and provides safe actions when the situation becomes critical.
-
-### Key Features
-- AI Risk Prediction Engine
-- Live Crowd Disaster Map
-- Smart Safe Route Generator
-- Offline Emergency Guide
-- Voice AI Assistant
+In those moments, confusion can be dangerous.
 
 ---
 
-## How It Works
+## 💡 Our Approach
 
-A user opens DisasterSense in the morning, and the app silently analyzes their location along with live data. If it detects a high-risk situation, it instantly suggests a safe route and the nearest shelter.
-
-As conditions worsen, nearby users upload live updates. The AI classifies incidents and updates the map automatically, so routes adjust around danger zones.
-
-When the network goes down, the offline guide and voice assistant continue to support the user with step-by-step instructions until they reach safety.
+We focus on **3 key stages of disaster management**:
 
 ---
 
-## Main Features
+## 🔮 1. Before the Disaster — AI Prediction System
 
-### 1. AI Risk Prediction
-The system analyzes weather data, historical disaster patterns, and local conditions to estimate risk levels for the user's exact location.
+At the core of DisasterSense is our **AI-powered prediction system**.
 
-### 2. Live Crowd Disaster Map
-Users can submit photos or reports. The system classifies incidents such as floods, fires, road blocks, or shelters and places them on a live map.
-
-### 3. Smart Safe Route Generator
-The app calculates the safest evacuation route by avoiding danger zones and updating the path in real time.
-
-### 4. Offline Emergency Guide
-When internet access is lost, the app still provides safety instructions, emergency steps, and basic survival guidance.
-
-### 5. Voice AI Assistant
-Users can speak naturally during panic situations, and the app responds with instant guidance and emergency steps.
+We are working on **3 major disaster types**:
+- 🌍 Earthquakes  
+- 🌊 Floods  
+- 🌡️ Heatwaves  
 
 ---
 
-## System Architecture
+### 🧠 Deep Learning Models
 
-DisasterSense follows a structured flow where user inputs are processed through the frontend and backend, integrated with real-time APIs and AI logic to analyze risks and deliver instant alerts, safe routes, and emergency guidance.
+We built and trained **3 separate deep learning models**:
 
-### Architecture Flow
-User Layer → Application Layer → Backend Layer → AI/ML Layer → Data Layer → External APIs
+- Earthquake Prediction Model  
+- Flood Prediction Model  
+- Heatwave Prediction Model  
 
-### Layers
-- **User Layer:** Mobile app, web dashboard, and voice assistant
-- **Application Layer:** Real-time map, alert display, and incident reporting
-- **Backend Layer:** User management, alert processing, route generation, and data aggregation
-- **AI/ML Layer:** Risk prediction, image analysis, and NLP modules
-- **Data Layer:** User reports and historical data storage
-- **External APIs:** Weather data, maps, routing, and emergency service integration
+These models analyze:
+- Temperature  
+- Wind speed  
+- Environmental conditions  
+- Historical patterns  
 
----
-
-## Working Process
-
-```text
-App opens
-→ Location detected instantly
-→ Real-time conditions analyzed
-→ Risk alert with time estimate displayed
-
-As the situation evolves
-→ Users upload live reports
-→ Map updates with danger zones
-→ Safe route automatically adjusts
-
-When conditions become critical
-→ Voice guidance activated
-→ Emergency Mode enabled with one tap
-→ Location shared with trusted contacts
-
-In case of network failure
-→ Offline guide continues to provide support
-```
-## 🛠️ Implementation Plan
-
-- Design a simple and intuitive user interface with location detection  
-- Integrate weather and environmental APIs to collect real-time data  
-- Develop the backend system to process incoming data and store information efficiently  
-- Build the AI model to predict potential disaster risks in real time  
-- Visualize risk levels and alerts on an interactive map  
-- Enable live crowd reporting for dynamic disaster updates  
-- Integrate SOS and emergency response features with real-time location sharing  
-- Test, optimize, and refine the system for accuracy, speed, and reliability  
+👉 The goal is simple:  
+**Predict if a disaster is likely to happen before it actually occurs.**
 
 ---
 
-## 🧰 Tech Stack
+### 📊 Model Performance
 
-### Frontend
-- HTML  
-- CSS  
-- JavaScript  
+| Disaster     | Accuracy | AUC-ROC |
+|-------------|---------|--------|
+| Earthquake  | ~48%    | ~0.52  |
+| Flood       | ~86%    | ~0.95  |
+| Heatwave    | ~88%    | ~0.96  |
 
-Used to build a simple, responsive, and user-friendly interface.
+---
+![WhatsApp Image 2026-04-03 at 14 28 50](Images/WhatsApp Image 2026-04-03 at 14.28.50.jpeg)
+
+
+### 📷 Training & Evaluation
+
+We monitored our models using:
+- Training vs Validation Loss  
+- Accuracy graphs  
+- Confusion matrices  
+
+These help us understand how well the model performs and where it can improve.
 
 ---
 
-### Backend
-- Node.js  
-- Express.js  
+### 🚀 Why This Matters
 
-Handles server logic, API requests, and data processing.
+Most apps react **after** disasters happen.  
+We try to answer:
 
----
+👉 **"What if we knew before?"**
 
-### Database
-- Firebase  
-- MongoDB  
-
-Stores real-time data and enables instant updates.
+That early signal can:
+- Save time  
+- Reduce panic  
+- Save lives  
 
 ---
 
-### APIs and Tools
-- GeoLocation API — Detects the user’s current location for personalized alerts  
-- OpenWeather API — Provides real-time weather data for risk analysis  
-- Google Maps API — Displays maps and helps generate safe routes  
+## 🗺️ 2. During the Disaster — Smart Safe Routing
+
+Once a disaster occurs, the app switches into **real-time guidance mode**.
 
 ---
 
-### AI and Logic
-- Python  
-- Scikit-learn — Basic risk prediction model  
-- Pandas — Data handling  
-- Rule-based logic — Fast decision making  
+### 📍 What the System Provides
+
+- 🔴 Danger zones (areas to avoid)  
+- 🟢 Safe routes  
+- 🏠 Shelter locations  
+- 📦 Supply & relief stations  
+
+👉 Routes dynamically adjust to avoid risky areas.
 
 ---
 
-## 📊 Expected Outcome
+### 🧭 Safe Route Visualization
 
-DisasterSense delivers a real-time, location-specific alert system that combines AI risk predictions with live community updates. Users receive early warnings, continuously updated danger maps, and dynamically generated safe routes, along with an offline emergency guide for uninterrupted support.
-
----
-
-## 👥 Benefits to Users
-
-- Critical time to act with advance warnings  
-- Crowd-verified real-time conditions  
-- Step-by-step voice-guided assistance  
-- Continuous support even without internet  
+![Safe Route Map](./assets/map.png)
 
 ---
 
-## 🌍 Real-World Impact
+### ⚙️ Control Panel
 
-- Saves lives with early warnings  
-- Reduces panic through clear guidance  
-- Improves real-time community awareness  
-- Works even without internet  
-- Scalable for large-scale disaster management  
+Users can:
+- Select starting location  
+- Choose auto-shelter or custom destination  
+- Simulate disaster scenarios  
 
----
-
-## 🔮 Future Scope
-
-### Future Improvements
-- Integration with government systems and official APIs (IMD, NDMA)  
-- Satellite imagery and drone-feed integration for aerial monitoring  
-- Advanced AI models for earlier and more accurate risk prediction  
-- Multilingual voice support (Hindi and regional languages)  
-- Wearable SOS device integration for instant emergency alerts  
+![Control Panel 1](./assets/control1.png)  
+![Control Panel 2](./assets/control2.png)
 
 ---
 
-### 📈 Scalability
-- Deployable across cities, states, and countries globally  
-- Works in low or no network conditions  
-- Adaptable to multiple disaster types and environments  
-- Easily integrable with national disaster management systems  
+### 📌 Route Guidance System
+
+Step-by-step navigation instructions are provided:
+
+![Route Guidance](./assets/route.png)
 
 ---
 
-## 🏁 Final Summary
+### 🗺️ Map Legend
 
-DisasterSense is a next-generation, AI-powered disaster intelligence system that combines prediction, real-time awareness, and continuous guidance into one unified platform. It addresses a critical real-world gap with a scalable and production-ready approach, making it capable of evolving from a hackathon solution into essential public safety infrastructure.
+- 🟢 Green → Safe Route  
+- 🔴 Red → Danger Zone  
+- 🔵 Blue → Shelter  
+- 🟠 Orange → Supply  
 
 ---
 
-## 👨‍💻 Team Hackover
+### 🚀 What Makes It Powerful
 
-- Gokul Karthic  
-- Aditya Raj  
-- Ashwani Pandey  
-- Yuvraj Rajpurohit  
+Instead of just telling users *“stay safe”*,  
+👉 we show them **exactly where to go**.
+
+---
+
+## 🎙️ 3. After / Panic Situations — Voice + Offline Help
+
+When users panic, reading is hard. Typing is harder.
+
+---
+
+### 🎤 Voice Assistant
+- Talk to the app naturally  
+- Get real-time instructions  
+- Receive guidance instantly  
+
+---
+
+### 📡 Offline Emergency Guide
+- Works without internet  
+- Provides survival instructions  
+- Gives situation-based help  
+
+👉 Because disasters don’t depend on network signals.
+
+---
+
+## ⚙️ How It Works
