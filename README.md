@@ -66,7 +66,7 @@ These models analyze:
 
 | Disaster     | Accuracy | AUC-ROC |
 |-------------|---------|--------|
-| Earthquake  | ~48%    | ~0.52  |
+| Earthquake  | ~50%    | ~0.52  |
 | Flood       | ~86%    | ~0.95  |
 | Heatwave    | ~88%    | ~0.96  |
 
