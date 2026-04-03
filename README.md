@@ -70,7 +70,7 @@ These models analyze:
 | Flood       | ~86%    | ~0.95  |
 | Heatwave    | ~88%    | ~0.96  |
 
----![WhatsApp Image 2026-04-03 at 14 28 50](https://github.com/user-attachments/assets/8b60b415-06ce-433b-b0d0-2ca26b9cf5db)
+![WhatsApp Image 2026-04-03 at 14 28 50](https://github.com/user-attachments/assets/8b60b415-06ce-433b-b0d0-2ca26b9cf5db)
 ![WhatsApp Image 2026-04-03 at 14 29 35](https://github.com/user-attachments/assets/cd6eb9b7-0588-46db-aebd-69499f0fc905)
 ![WhatsApp Image 2026-04-03 at 14 29 53](https://github.com/user-attachments/assets/20ffe31d-f300-484f-8358-b3790c1ed709)
 ![WhatsApp Image 2026-04-03 at 14 29 28](https://github.com/user-attachments/assets/e77e9436-280e-494b-8ea4-a1ebe25764f6)
