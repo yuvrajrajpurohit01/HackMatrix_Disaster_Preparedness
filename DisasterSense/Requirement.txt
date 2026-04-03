@@ -1,0 +1,6 @@
+streamlit
+pandas
+pydeck
+pyttsx3
+speechrecognition
+scikit-learn
